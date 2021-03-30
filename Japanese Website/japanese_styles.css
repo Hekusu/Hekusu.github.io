@@ -1,0 +1,9 @@
+h1 {
+    height: 75px;
+    width: fill;
+    text-align: center;
+    background-color: aqua;
+    line-height: 75px;
+    font-family: aerial;
+    font-size: 30px;  
+}
