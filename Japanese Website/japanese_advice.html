@@ -1,5 +1,51 @@
 <html>
 
+<head>
+    
+<link href="japanese_styles.css"
+          type="text/css"
+          rel="stylesheet">
+
+<title>
+    Insert Title - Advice
+</title>
+
+</head>
+    
+<h1>
+    Insert Title
+</h1>
+    
+<body>
+
+<div id="mySidebar" class="sidebar">
+  <a href="japanese_home.html">Home</a>
+  <a href="japanese_particles.html">Particles</a>
+  <a href="japanese_advice.html">Advice</a>
+  <a href="japanese_resources.html">Resources</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="toggleNav()">開 Toggle Sidebar</button>  
+  <h2>Advice</h2>
+  <p>This is my advice page</p>
+</div>
+
+<script>
+function toggleNav() {
+ if (document.getElementById("mySidebar").style.width < "20px"){
+     document.getElementById("mySidebar").style.width = "250px";
+     document.getElementById("main").style.marginLeft = "250px";
+ }
+
+    else { document.getElementById("mySidebar").style.width = "0px";
+     document.getElementById("main").style.marginLeft = "0px";
+ }
+}
+
+</script>
+</body>
+
 
 
 </html>

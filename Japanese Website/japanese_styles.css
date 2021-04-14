@@ -8,8 +8,8 @@ h1 {
     padding: 0px;
     width: fill;
     text-align: center;
-    background-color: aqua;
-    line-height: 75px;
+    background-color: 80FFDB;
+    line-height: 190%;
     font-family: Kiona Regular;
     font-size: 30px;
     
@@ -33,7 +33,7 @@ h1 {
   padding: 8px 0px 8px 20px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: 80FFDB;
   display: block;
   transition: 0.3s;
 }
@@ -58,7 +58,7 @@ h1 {
 
 #main {
   transition: margin-left 0.5s;
-  padding: 0px;
+  padding: 20px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
