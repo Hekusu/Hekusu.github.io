@@ -9,36 +9,41 @@
 <title>
     Insert Title - Particles
 </title>
-    
+
+<body>    
+
 <h1>
 Insert Title
 </h1>
     
-<sidebar id="mySidebar" class="sidebar">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+<div id="mySidebar" class="sidebar">
   <a href="japanese_home.html">Home</a>
   <a href="japanese_particles.html">Particles</a>
   <a href="japanese_advice.html">Advice</a>
   <a href="japanese_resources.html">Resources</a>
-</sidebar>
+</div>
 
 <div id="main">
-  <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>  
-  <h2>Particles</h2>
-  <p>This is my particle page</p>
+  <button class="openbtn" onclick="toggleNav()">☰ Open Sidebar</button>  
+  <h2>Home</h2>
+  <p>This is my home page</p>
 </div>
 
 <script>
-function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
+function toggleNav() {
+ if (document.getElementById("mySidebar").style.width < "20px"){
+     document.getElementById("mySidebar").style.width = "250px";
+     document.getElementById("main").style.marginLeft = "250px";
+ }
+
+    else { document.getElementById("mySidebar").style.width = "0px";
+     document.getElementById("main").style.marginLeft = "0px";
+ }
 }
 
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-}
 </script>
-    
-</head>
+</body>
+
+
+
 </html>
