@@ -8,7 +8,7 @@ h1 {
     padding: 0px;
     width: fill;
     text-align: center;
-    background-color: 80FFDB;
+    background-color: 5390D9;
     line-height: 190%;
     font-family: Kiona Regular;
     font-size: 30px;
@@ -36,10 +36,11 @@ h1 {
   color: 80FFDB;
   display: block;
   transition: 0.3s;
+  font-family: Espera;
 }
 
 .sidebar a:hover {
-  background-color: #f1f1f1;
+  background-color: 5390D9;
 }
 
 
@@ -50,6 +51,8 @@ h1 {
   color: white;
   padding: 10px 15px;
   border: none;
+  font-family: Espera;
+  transition: 0.3s;
 }
 
 .openbtn:hover {
@@ -59,6 +62,7 @@ h1 {
 #main {
   transition: margin-left 0.5s;
   padding: 20px;
+  font-family: Espera;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
