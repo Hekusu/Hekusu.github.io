@@ -1,3 +1,6 @@
+html {scroll-behavior: smooth;
+}
+
 body {margin: 0;
 
  }
@@ -25,7 +28,7 @@ h1 {
   transition: 0.5s;
   display: block;
   margin: 0;
-    padding: 0px;
+  padding: 0px;
   overflow-y: hidden;
 }
 
@@ -33,7 +36,7 @@ h1 {
   padding: 8px 0px 8px 20px;
   text-decoration: none;
   font-size: 25px;
-  color: 80FFDB;
+  color: 56CFE1;
   display: block;
   transition: 0.3s;
   font-family: Espera;
@@ -69,4 +72,29 @@ h1 {
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
+}
+
+#navbar {
+    background-color: 7400B8;
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    transition: 0.3s;
+    font-family: Espera;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: 56CFE1;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#navbar a:hover {
+    background-color: 56CFE1;
+    color: 7400B8;
+    
 }
