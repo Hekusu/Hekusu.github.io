@@ -19,17 +19,17 @@ h1 {
 }
 
 .sidebar {
-  height: 90% /*Adjust sidebar height here*/;
-  width: 0;
+  height: 100%;
+  width: 0px;
   position: absolute;
   top: 10%;
   background-color: 7400B8;
-  overflow-x: hidden;
   transition: 0.5s;
   display: block;
   margin: 0;
   padding: 0px;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .sidebar a {
@@ -45,6 +45,7 @@ h1 {
 .sidebar a:hover {
   background-color: 56CFE1;
   color:7400B8;
+    
 }
 
 
@@ -67,6 +68,18 @@ h1 {
   transition: margin-left 0.5s;
   padding: 20px;
   font-family: Espera;
+}
+
+#main h2{
+    text-align: center;
+}
+
+#main p{
+    border: 3px;
+    border-style: solid;
+    border-color: 7400B8;
+    padding: 3px;
+    
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
