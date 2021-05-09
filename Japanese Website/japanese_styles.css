@@ -2,6 +2,7 @@ html {scroll-behavior: smooth;
 }
 
 body {margin: 0;
+    overflow-x: hidden;
 
  }
 
@@ -15,27 +16,28 @@ h1 {
     line-height: 190%;
     font-family: Kiona Regular;
     font-size: 30px;
+    transition: 0.5s
     
 }
 
 .sidebar {
-  height: 90% /*Adjust sidebar height here*/;
-  width: 0;
+  height: 100%;
+  width: 0px;
   position: absolute;
   top: 10%;
   background-color: 7400B8;
-  overflow-x: hidden;
   transition: 0.5s;
   display: block;
   margin: 0;
   padding: 0px;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .sidebar a {
-  padding: 8px 0px 8px 20px;
+  padding: 8px 0px 8px 10px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 2vw;
   color: 56CFE1;
   display: block;
   transition: 0.3s;
@@ -45,10 +47,11 @@ h1 {
 .sidebar a:hover {
   background-color: 56CFE1;
   color:7400B8;
+    
 }
 
 
-.openbtn {
+#openbtn{
   font-size: 20px;
   cursor: pointer;
   background-color: 56CFE1;
@@ -57,19 +60,64 @@ h1 {
   border: none;
   font-family: Espera;
   transition: 0.3s;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  position: relative;
+  width:  calc(75% + 1.6vw);
+  left: 0px;
+  transition: left 0.5s;
 }
 
-.openbtn:hover {
+#openbtn .openbtn:hover {
   background-color: 7400B8;
+  transition: 0.3s;
 }
 
-#main {
-  transition: margin-left 0.5s;
-  padding: 20px;
+#main1 {
+  transition: left 0.5s;
   font-family: Espera;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  position: relative;
+  width: 75%;
+  left: 0px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+#main1 h2{
+    text-align: center;
+}
+
+#main1 {
+    border: .3vw;
+    border-style: solid;
+    border-color: 7400B8;
+    padding: .5vw;
+    
+}
+
+#main2 {
+  transition: left 0.5s;
+  font-family: Espera;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  position: relative;
+  width: 75%;
+  left: 0px;
+}
+
+#main2 h2{
+    text-align: center;
+}
+
+#main2 {
+    border: .3vw;
+    border-style: solid;
+    border-color: 7400B8;
+    padding: .5vw;
+}
+
+
+/* On smaller screens, where height is less than 450px */
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
