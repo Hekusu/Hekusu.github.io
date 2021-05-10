@@ -7,24 +7,24 @@ body {margin: 0;
  }
 
 h1 {
-    height: 10%;
+    height: 8vmin;
     margin: 0px;
     padding: 0px;
     width: fill;
     text-align: center;
     background-color: 5390D9;
-    line-height: 190%;
+    line-height: 8vmin;
     font-family: Kiona Regular;
-    font-size: 200%;
-    transition: 0.5s
+    font-size: 6vmin;
+    transition: 0.5s;
     
 }
 
 .sidenav {
-  height: 90%;
+  height: calc(100% - 8vmin);
   width: 0px;
   position: absolute;
-  top: 10%;
+  top: 8vmin;
   background-color: 7400B8;
   transition: 0.5s;
   display: block;
@@ -61,7 +61,7 @@ h1 {
   position: absolute;
   width:  15vw;
   left: 0px;
-  height: 10%;
+  height: 8vmin;
   transition: 0.3s;
 }
 
@@ -76,8 +76,9 @@ h1 {
   margin-left: 15vw;
   margin-right: 15vw;
   position: relative;
-  width: calc (100% - 30vw);
+  width: calc(100% - 30vw);
   left: 0px;
+  font-size: 2.2vh;
 }
 
 #main1 h2{
@@ -99,8 +100,9 @@ h1 {
   margin-left: 15vw;
   margin-right: 15vw;
   position: relative;
-  width: calc (100% - 30vw);
+  width: calc(100% - 30vw);
   left: 0px;
+  font-size: 2.2vh;
 }
 
 #main2 h2{
