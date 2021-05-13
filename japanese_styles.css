@@ -76,7 +76,7 @@ h1 {
   margin-left: 15vw;
   margin-right: 15vw;
   position: relative;
-  width: calc(100% - 30vw);
+  width: 70vw;
   left: 0px;
   font-size: 2.2vh;
 }
@@ -176,6 +176,12 @@ h1 {
 POGG {
     margin: 0;
     float: right;
-    width: 46vw;
+    width: 52vw;
     text-align: center;
 }
+
+POGG WORDS {
+    margin: 0;
+    float: right;
+    width: 52vw;
+    text-align: left;
