@@ -37,11 +37,12 @@ h1 {
 .sidenav a {
   padding: 8px 0px 8px 10px;
   text-decoration: none;
-  font-size: 1.6vw;
+  font-size: 1.6vmax;
   color: 56CFE1;
   display: block;
   transition: 0.3s;
   font-family: Espera;
+  left: 0;
 }
 
 .sidenav a:hover {
@@ -52,22 +53,24 @@ h1 {
 
 
 #openbtn{
-  font-size: 1.6vw;
+  font-size: 1.6vmax;
   cursor: pointer;
-  background-color: 56CFE1;
-  color: white;
+  background-color: 7400B8;
+  color: 56CFE1;
   border: none;
-  font-family: esperaregular;
+  font-family: Espera;
   position: absolute;
   width:  15vw;
   left: 0px;
   height: 8vmin;
   transition: 0.3s;
+  text-align: center;
 }
 
 #openbtn:hover {
-  background-color: 7400B8;
+  background-color: 56CFE1;
   transition: 0.3s;
+  color: 7400B8;
 }
 
 #main1 {
@@ -78,7 +81,7 @@ h1 {
   position: relative;
   width: 70vw;
   left: 0px;
-  font-size: 2.2vh;
+  font-size: 2vh;
 }
 
 #main1 h2{
@@ -89,7 +92,7 @@ h1 {
 #main1 {
     border: .3vw;
     border-style: solid;
-    border-color: 7400B8;
+    border-color: 5390D9;
     padding: .5vw;
     
 }
@@ -100,9 +103,9 @@ h1 {
   margin-left: 15vw;
   margin-right: 15vw;
   position: relative;
-  width: calc(100% - 30vw);
+  width: 70vw;
   left: 0px;
-  font-size: 2.2vh;
+  font-size: 2vh;
 }
 
 #main2 h2{
@@ -113,7 +116,7 @@ h1 {
 #main2 {
     border: .3vw;
     border-style: solid;
-    border-color: 7400B8;
+    border-color: 5390D9;
     padding: .5vw;
 }
 
@@ -127,10 +130,11 @@ h1 {
 #navbar {
     background-color: 7400B8;
     position: fixed;
-    top: -50px;
+    top: -50vmin;
     width: 100%;
     transition: 0.3s;
     font-family: Espera;
+    z-index: 2;
 }
 
 #navbar a {
@@ -138,7 +142,7 @@ h1 {
     display: block;
     color: 56CFE1;
     text-align: center;
-    padding: 15px;
+    padding: 2vmin;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -157,10 +161,10 @@ h1 {
   position: relative;
   width: 70vw;
   left: 0px;
-  font-size: 1.5vw;
+  font-size: 1.9vmin;
   border: .3vw;
     border-style: solid;
-    border-color: 7400B8;
+    border-color: 5390D9;
     padding: .5vw;
     
 }
@@ -169,7 +173,7 @@ h1 {
     margin: -0.5vw;
     border-right: .3vw;
     border-right-style: solid;
-    border-right-color: 7400B8;
+    border-right-color: 5390D9;
 }
 
 POGG {
@@ -184,3 +188,10 @@ POGG WORDS {
     float: right;
     width: 52vw;
     text-align: left;
+}
+
+#Resource {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  position: relative;
+}
