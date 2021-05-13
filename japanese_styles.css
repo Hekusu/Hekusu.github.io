@@ -198,8 +198,8 @@ POGG WORDS {
 
 @font-face {
     font-family: 'esperaregular';
-    src: url('espera-regular-webfont.woff2') format('woff2'),
-         url('espera-regular-webfont.woff') format('woff');
+    src: url('https://hekusu.github.io/espera-regular-webfont.woff2') format('woff2'),
+         url('https://hekusu.github.io/espera-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -207,8 +207,8 @@ POGG WORDS {
 
 @font-face {
     font-family: 'kionaregular';
-    src: url('kiona-regular-webfont.woff2') format('woff2'),
-         url('kiona-regular-webfont.woff') format('woff');
+    src: url('https://hekusu.github.io/kiona-regular-webfont.woff2') format('woff2'),
+         url('https://hekusu.github.io/kiona-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
